@@ -30,7 +30,7 @@
 a {
   width: 200px;
   font-size: 18px;
-  padding: 10px;
+  padding: 5px;
   border: none;
   background: #000;
   color: #fff;
@@ -39,6 +39,21 @@ a {
   text-decoration: none;
 }
 a:hover{
+  background: #ddd;
+  color:black;
+}
+a.about {
+  width: 200px;
+  font-size: 18px;
+  padding: 2px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 25px;
+  text-decoration: none;
+}
+a.about:hover{
   background: #ddd;
   color:black;
 }
